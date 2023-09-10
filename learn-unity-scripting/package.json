@@ -7,7 +7,8 @@
     "vscode": "^1.82.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
@@ -16,6 +17,12 @@
       {
         "command": "learn-unity-scripting.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/snippets.code-snippets"
       }
     ]
   },
