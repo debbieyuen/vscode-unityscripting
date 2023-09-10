@@ -1,6 +1,7 @@
 import * as vscode from "vscode";
 import { getNonce } from "./getNonce";
-// import 'getNonce' from "./getNonce";
+import * as fs from 'fs';
+// fs.readFileSync('unity.html', 'utf8');
 
 export class UnityPanel {
   /**
