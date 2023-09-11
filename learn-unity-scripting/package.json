@@ -136,7 +136,7 @@
       "activitybar": [
         {
           "id": "unity-sidebar-view",
-          "title": "Unity Activitybar",
+          "title": "Unity Learn",
           "icon": "media/octoface.svg"
         }
       ]
@@ -146,7 +146,7 @@
         {
           "type": "webview",
           "id": "unity-sidebar",
-          "name": "Unity Sidebar",
+          "name": "",
           "icon": "media/octoface.svg",
           "contextualTitle": "Unity Sidebar"
         }

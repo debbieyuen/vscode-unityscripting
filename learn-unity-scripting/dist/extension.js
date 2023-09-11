@@ -2308,23 +2308,29 @@ class SidebarProvider {
 			</head>
       <body>
 				<script nonce="${nonce}" src="${scriptUri}"></script>
-                <h3>Project</h4>
-                <div style="width:100%">
+                <h3 style="padding-top: 10px, padding-bottom: 5px">Project</h4>
+                <p>The code for Unity 2D projects utilize 2D sprites and physics. Unity 3D works with 3D meshes and physics. Start with 2D, 3D, AR, or VR and swap at any time. Read Unity's Manual on 2D/3D projects <a href="https://docs.unity3d.com/Manual/2Dor3D.html">here</a>.</p>
+                <div style="width:100%; padding-top: 20px">
                     <button style="width:20%">2D</button>
                     <button style="width:20%">3D</button>
                     <button style="width:20%">AR</button>
                     <button style="width:20%">VR</button>
                 </div>
                 <br></br>
-                <h3>Devices</h4>
-                <div>
-                    <button style="width:45%">☎️ Mobile</button>
-                    <button style="width:45%">🥽 XR</button>
+                <h3 style="padding-top: 10px, padding-bottom: 5px">Devices</h4>
+                <p>Select a platform you are developing for to generate code specific to the platform. See Unity's supported and closed platforms <a href="https://docs.unity3d.com/Manual/PlatformSpecific.html">here</a>.</p>
+                <div style="padding-top: 20px">
+                    <button style="width:45%">☎️  Mobile</button>
+                    <button style="width:45%">🥽  XR</button>
                 </div>
                 <div>
-                    <button style="width:45%">🖥️ WebGL</button>
-                    <button style="width:45%">🎮 Console</button>
+                    <button style="width:45%">🖥️  WebGL</button>
+                    <button style="width:45%">🎮  Console</button>
                 </div>
+                <br></br>
+                <h3 style="padding-top: 10px, padding-bottom: 5px">Explain this code</h4>
+                <p style="padding-bottom: 10px">A summary of the code in your current file will be displayed.</p>
+                <input style="padding-bottom: 10px" type="text" placeholder="Reading...">
 			</body>
 			</html>`;
     }
