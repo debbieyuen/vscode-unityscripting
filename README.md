@@ -62,6 +62,6 @@ $ git lfs install
 ```
     
 ## Credits and References 
- * This extension makes use of [VSCode Extension Samples](https://github.com/microsoft/vscode-extension-samples/tree/main)
+ * This extension makes use of code from [VSCode Extension Samples](https://github.com/microsoft/vscode-extension-samples/tree/main)
  * Thank you to the creators of the many resources and tutorials I found online such as [Ben Awad](https://github.com/benawad)
  * Inspired through my teaching at [USC Games](https://usc-ctin583.github.io/), for I have learned so much from the students and faculty. 
