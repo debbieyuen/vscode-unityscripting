@@ -1,6 +1,6 @@
 {
   "name": "learn-unity-scripting",
-  "displayName": "Learn Unity Scripting",
+  "displayName": "Unity Learn",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -10,21 +10,148 @@
     "Other",
     "Snippets"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:getting-started-sample.unityLearnDocs",
+    "onCommand:getting-started-sample.runCommand",
+		"onCommand:getting-started-sample.changeSetting",
+		"onCommand:getting-started-sample.setContext",
+		"onCommand:getting-started-sample.startUnityWalkthrough",
+		"onCommand:getting-started-sample.viewSources"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
+    "menus": {
+			"file/newFile": [
+				{
+					"command": "learn-unity-scripting.startUnityWalkthrough"
+				}
+			]
+		},
     "commands": [
       {
-        "command": "learn-unity-scripting.helloWorld",
-        "title": "Hello World"
+        "command": "learn-unity-scripting.startUnityWalkthrough",
+        "title": "Unity C# Scripting Walkthrough",
+        "shortTitle": "Learning about Visual Studio Code, C# Scripting, and the Unity Engine."
+      },
+      {
+        "command": "learn-unity-scripting.unityLearnDocs",
+        "title": "Unity Learn Documentation",
+        "shortTitle": "Free tutorials, courses, and guided pathways for mastering real-time 3D development skills to make video games, VR, AR, and more."
+      },
+      {
+        "command": "learn-unity-scripting.runCommand",
+        "title": "Thank you!",
+        "shortTitle": "You successfully completed a step in the walkthrough."
       }
     ],
+    "walkthroughs": [
+			{
+				"id": "sample",
+				"title": "Get Started with Unity Development",
+				"description": "Your first Unity game with Visual Studio Code",
+				"steps": [
+          {
+						"id": "newunityproject",
+						"title": "Create Unity Project",
+						"description": "Create a new Unity 3D (URP) project. Place a new plane at (0, 0, 0) and a 3D cube at (0, 1, 0).\n[Unity Hub](command:learn-unity-scripting.newunityproject)",
+						"media": {
+							"image": "media/unityEditor.png",
+							"altText": "Empty image"
+						},
+						"completionEvents": [
+							"onCommand:learn-unity-scripting.runCommand"
+						]
+					},
+					{
+						"id": "installunityextension",
+						"title": "Install Unity Extension",
+						"description": "Install the Unity Extension. This step will complete once it has been installed.\n[Unity Extension](command:workbench.extensions.installExtension?%22ms-visualstudiotoolsforunity.vstuc%22)",
+						"media": {
+							"image": "media/installUnity.png",
+							"altText": "Empty image"
+						},
+						"completionEvents": [
+							"extensionInstalled:visualstudiotoolsforunity.vstuc"
+						]
+					},
+          {
+						"id": "installcopilotextension",
+						"title": "Install Copilot Extension",
+						"description": "Install the Unity Extension. This step will complete once it has been installed.\n[GitHub Copilot Extension](command:workbench.extensions.installExtension?%22ms-visualstudiotoolsforunity.vstuc%22)",
+						"media": {
+							"image": "media/installCopilot.png",
+							"altText": "Empty image"
+						},
+						"completionEvents": [
+							"extensionInstalled:visualstudiotoolsforunity.vstuc"
+						]
+					},
+          {
+						"id": "createscript",
+						"title": "Create C# Script",
+						"description": "In the Unity Editor, create a new C# script titled PlayerController.cs.",
+						"media": {
+							"image": "media/createScript.png",
+							"altText": "Empty image"
+						},
+						"completionEvents": [
+							"onCommand:learn-unity-scripting.runCommand"
+						]
+					},
+					{
+						"id": "openterminalview",
+						"title": "Open Terminal",
+						"description": "Click [here](command:workbench.action.terminal.toggleTerminal) to open terminal. This step will complete once the terminal has been opened.\n[Terminal](command:workbench.action.terminal.toggleTerminal)",
+						"media": {
+							"image": "media/terminal.png",
+							"altText": "Empty image"
+						},
+						"completionEvents": [
+							"onView:terminal"
+						]
+					},
+          {
+						"id": "openunityproject",
+						"title": "Open Project Folder",
+						"description": "Open your Unity Project in VS Studio Code.\n[Unity Hub](command:learn-unity-scripting.openunityproject)",
+						"media": {
+							"image": "media/openProjectFolder.png",
+							"altText": "Empty image"
+						},
+						"completionEvents": [
+							"onCommand:learn-unity-scripting.runCommand"
+						]
+					}
+          
+				]
+			}
+		],
     "snippets": [
       {
         "language": "csharp",
         "path": "./snippets/snippets.code-snippets"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "unity-sidebar-view",
+          "title": "Unity Activitybar",
+          "icon": "media/octoface.svg"
+        }
+      ]
+    },
+    "views": {
+      "unity-sidebar-view": [
+        {
+          "type": "webview",
+          "id": "unity-sidebar",
+          "name": "Unity Sidebar",
+          "icon": "media/octoface.svg",
+          "contextualTitle": "Unity Sidebar"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
