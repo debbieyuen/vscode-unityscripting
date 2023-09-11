@@ -6,6 +6,7 @@ Unity C# Scripting
   * [Your First VSCode Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
   * [Axios](https://www.npmjs.com/package/axios)
   * [Unity 2022](https://unity.com/releases/lts)
+  * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
 
 ## Set Up
 
@@ -37,6 +38,11 @@ $ npm install -g yo generator-code
 Install the Axios API
 ```bash
 $ npm install axios
+```
+
+Install Fast XML Parser
+```bash
+$ npm install fast-xml-parser
 ```
     
 ## Credits and References
