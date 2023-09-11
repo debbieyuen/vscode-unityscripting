@@ -8,6 +8,7 @@ Unity C# Scripting
   * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
   * [Unity 2022](https://unity.com/releases/lts)
   * [Axios](https://www.npmjs.com/package/axios)
+  * [Codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html)
 
 ## Set Up
 
