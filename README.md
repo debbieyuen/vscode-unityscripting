@@ -1,18 +1,19 @@
 # VSCode Unity Learn Extension
 Unity C# Scripting
 
-## Features
+## VS Code Features
 
 ### Walkthrough: Get Started with Unity Development
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/9850b80c-3c08-4f40-a82a-d19db9467f39
 
 ### Unity Learn Documentation
-
-
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/7d999fd3-18e5-49b1-b079-510f5f08d1cf
 
-
 ### Snippets: Unity Player Movement Snippets
+https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8a-4141-9a29-59a2501baac5
+
+### VSCode Actionbar and Sidebar: 
+<img width="1280" alt="specialization" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5dc2618d-8705-4ccc-8e39-b778e29bffb3">
 
 ## Requirements
   * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
