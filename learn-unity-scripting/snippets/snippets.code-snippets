@@ -1,5 +1,5 @@
 {
-    "Unity Player Controller with Input System": {
+    "Player Movement Template": {
         "prefix": "unityPlayerController",
         "body": [
             "using System.Collections;",
@@ -33,7 +33,7 @@
         "description": "A basic Unity PlayerController template with a placeholder for the new Input System."
     },
 
-    "Unity Player Movement for the New Input Manager System with 2D Vectors": {
+    "New Input Manager System: 2D Vectors": {
         "prefix": "unityPlayer2DVectorMovementNewInputManager",
         "body": [
             "[Header(\"General Setup Settings\")]",
