@@ -4,9 +4,10 @@ Unity C# Scripting
 ## Requirements
   * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
   * [Your First VSCode Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
-  * [Axios](https://www.npmjs.com/package/axios)
-  * [Unity 2022](https://unity.com/releases/lts)
+  * [Git Large File Storage](https://git-lfs.com/)
   * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
+  * [Unity 2022](https://unity.com/releases/lts)
+  * [Axios](https://www.npmjs.com/package/axios)
 
 ## Set Up
 
@@ -25,24 +26,24 @@ Only clone the Unity Project
 $ git clone https://github.com/debbieyuen/vscode-unityscripting
 ```
 
-Install Git and Node.js
-```bash
-$ python --version
-```
-
-Install Yeoman and VS Code Extension Generator
+Make sure you have Git and Node.js. Then, install Yeoman and VS Code Extension Generator
 ```bash
 $ npm install -g yo generator-code
 ```
 
-Install the Axios API
+Install the Axios API for the VSCode Extension
 ```bash
 $ npm install axios
 ```
 
-Install Fast XML Parser
+Install Fast XML Parser for the VSCode Extension
 ```bash
 $ npm install fast-xml-parser
+```
+
+For the Unity project, install Git LFS
+```bash
+$ git lfs install
 ```
     
 ## Credits and References
