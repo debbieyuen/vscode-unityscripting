@@ -1,5 +1,5 @@
 # VSCode Unity Learn Extension
-Unity C# Scripting
+Description coming soon!
 
 ## VS Code Features
 
@@ -15,7 +15,7 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
 ### VSCode Actionbar and Sidebar: 
 <img width="1280" alt="specialization" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5dc2618d-8705-4ccc-8e39-b778e29bffb3">
 
-## Requirements
+## Requirements and Links
   * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
   * [Your First VSCode Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
   * [Git Large File Storage](https://git-lfs.com/)
@@ -61,4 +61,7 @@ For the Unity project, install Git LFS
 $ git lfs install
 ```
     
-## Credits and References
+## Credits and References 
+ * This extension makes use of [VSCode Extension Samples](https://github.com/microsoft/vscode-extension-samples/tree/main)
+ * Thank you to the creators of the many resources and tutorials I found online such as [Ben Awad](https://github.com/benawad)
+ * Inspired through my teaching at [USC Games](https://usc-ctin583.github.io/), for I have learned so much from the students and faculty. 
