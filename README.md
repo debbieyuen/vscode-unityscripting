@@ -1,5 +1,6 @@
 # VSCode Unity Learn Extension
 Description coming soon!
+This repo contains a folder that holds the code for the Visual Studio Code extension and another folder that holds the code for a Unity project.
 
 ## VS Code Features
 
