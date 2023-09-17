@@ -1,6 +1,13 @@
 # VSCode Unity Learn Extension
-Description coming soon!
-This repo contains a folder that holds the code for the Visual Studio Code extension and another folder that holds the code for a Unity project.
+Unity is one of many game engines that has taken cross-platform game development to the next level. The Unity Engine has expanded beyond the game development community and has opened doors of innovation in animation, spatial computing, cinematic arts, and many other fields. 
+
+To make the most out of Unity, it is essential and valuable to understand C# programming. Even when a project doesn’t require much programming, a deeper understanding of C# and Visual Studio Code will support design processes. The Visual Studio Code Extension, **Unity Learn**, strives to support Unity users in simplifying workflows and working conveniently and efficiently. The **Unity Learn** extension serves as both a teaching and learning tool to support users in understanding and creating a Unity application in real time. This repository holds code for 1. The Unity Learn extension, which was created in Typescript and 2. A sample 3D Unity project that works in conjunction with the Unity Learn extension. 
+
+The depth of C# programming varies drastically depending on the designer/developer’s unique needs, projects, and tasks. Animators, creative coders, programmers, UI/UX designers, and 3D artists may all utilize Unity in their professional work but need to fulfill different goals within the engine. Therefore, the Unity Learn extension’s main goal is not to necessarily teach mastery of the C# language but to teach how Unity and Visual Studio Code can be adapted for their purposes. 
+
+Here are some lessons I hope students can think about while using this extension:
+  * **Design and code with intention:** Unity allows developers and designers to design one application that can be built for various mobile devices, desktops, websites, consoles, and headsets. Applications that support more platforms may benefit from increased sales and profits. However, what are the other reasons that led you to select those platforms for your application? How does the code or design of the application change as you customize the experience to a specific platform?
+  * **Workflow:** Visual Studio and Unity work seamlessly together. However, many game developers (including me) have issues working with Visual Studio Code and Unity. Can we design a new workflow between Visual Studio Code and Unity? What could that look like? 
 
 ## VS Code Features
 
