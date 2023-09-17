@@ -1,4 +1,4 @@
-# VSCode Unity Learn Extension
+# Octocat
 [Unity](https://unity.com/) is one of many game engines that has taken [cross-platform game development](https://docs.unity3d.com/Manual/CrossPlatformConsiderations.html) to the next level. The Unity Engine has expanded beyond the game development community and has opened doors of innovation in animation, spatial computing, cinematic arts, and graphics. 
 
 To make the most out of Unity, it is essential and valuable for users to understand [C# programming](https://docs.unity3d.com/Manual/ScriptingSection.html). Even when an individual’s role doesn’t require programming, a deeper understanding of C# and Visual Studio Code will support the design process. The Visual Studio Code Extension, *Unity Learn*, strives to simplify workflows to work conveniently and efficiently. The Unity Learn extension is a teaching and learning tool to help users understand and create Unity applications. **This repository holds code for 1. The Unity Learn extension, which was created in Typescript and 2. A sample 3D Unity project that works in conjunction with the Unity Learn extension.**
