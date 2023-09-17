@@ -26,13 +26,16 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
 <img width="1280" alt="specialization" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5dc2618d-8705-4ccc-8e39-b778e29bffb3">
 
 ## Requirements and Links
-  * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
-  * [Your First VSCode Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
-  * [Git Large File Storage](https://git-lfs.com/)
-  * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
-  * [Unity 2022](https://unity.com/releases/lts)
-  * [Axios](https://www.npmjs.com/package/axios)
-  * [Codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html)
+  * VSCode Extension:
+       * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
+       * [Axios](https://www.npmjs.com/package/axios)
+       * [Codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html)
+       * [Your First VSCode Extension](https://code.visualstudio.com/api/get-started/your-first-extension)
+       * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
+  * Unity:
+       * [Git Large File Storage](https://git-lfs.com/)
+       * [Unity 2022](https://unity.com/releases/lts)
+       * [Input System 1.7.0](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
 
 ## Set Up
 
