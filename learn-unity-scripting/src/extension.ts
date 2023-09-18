@@ -13,7 +13,8 @@ const parser = new XMLParser();
 export async function activate(context: vscode.ExtensionContext) {
 
 	// Fetch RSS feed to populate Unity Learn documentation
-	const res = await axios.get('https://rss.app/feeds/CmRSPz9oXjdA1iOb.xml');
+	// const res = await axios.get('https://rss.app/feeds/CmRSPz9oXjdA1iOb.xml');
+	const res = await axios.get('https://blog.webdevsimplified.com/rss.xml');
 	const articles = parser.parse(res.data).rss.channel.item.map((article: { title: any; description: any; link: any;}) => {
 		return {
 			label: article.title,

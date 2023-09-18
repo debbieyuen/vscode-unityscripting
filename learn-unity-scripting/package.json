@@ -11,12 +11,12 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onCommand:getting-started-sample.unityLearnDocs",
-    "onCommand:getting-started-sample.runCommand",
-		"onCommand:getting-started-sample.changeSetting",
-		"onCommand:getting-started-sample.setContext",
-		"onCommand:getting-started-sample.startUnityWalkthrough",
-		"onCommand:getting-started-sample.viewSources"
+    "onCommand:learn-unity-scripting.unityLearnDocs",
+    "onCommand:learn-unity-scripting.runCommand",
+		"onCommand:learn-unity-scripting.changeSetting",
+		"onCommand:learn-unity-scripting.setContext",
+		"onCommand:learn-unity-scripting.startUnityWalkthrough",
+		"onCommand:learn-unity-scripting.viewSources"
   ],
   "main": "./dist/extension.js",
   "contributes": {
