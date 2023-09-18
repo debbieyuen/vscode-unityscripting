@@ -9,21 +9,26 @@ The depth of C# programming varies drastically depending on the user’s unique 
 Here are some lessons I hope students can think about while using this extension:
   * **Design and code with intention:** Unity allows developers and designers to design one application that can be built for various mobile devices, desktops, websites, consoles, and headsets. Applications that support more platforms may benefit from increased sales and profits. What other reasons led you to select those platforms for your application? How does the code or design of the application change as you customize the experience to a specific platform?
   * **Workflow:** Visual Studio and Unity work seamlessly together. However, many game developers (including me) have issues working with Visual Studio Code and Unity. Can we design a new workflow between Visual Studio Code and Unity? What could that look like?
-  * **Documentation:** Documentation is your toolkit and best friend. Videos and tutorials are great. Learn how to read documentation to prototype new and custom experiences. 
+  * **Documentation:** Documentation is your toolkit and best friend. Videos and tutorials are great. Learn how to read documentation to prototype new and custom experiences.
+  * **Monetization and User Experience:** The relationship between game monetization and user experience can more or less depend on each other. Will one drive the other? Does one drive the other? How does prioritizing one aspect over the other affect the gameplay designs?
 
 ## VS Code Features
 
-### Walkthrough: Get Started with Unity Development
+### [Walkthrough](https://code.visualstudio.com/api/ux-guidelines/walkthroughs): Get Started with Unity Development
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/9850b80c-3c08-4f40-a82a-d19db9467f39
 
-### Unity Learn Documentation
+### [Command Palette](https://code.visualstudio.com/api/ux-guidelines/command-palette): Unity Learn Documentation
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/7d999fd3-18e5-49b1-b079-510f5f08d1cf
 
-### Snippets: Unity Player Movement Snippets
+### [Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets): Unity Player Movement Snippets
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8a-4141-9a29-59a2501baac5
 
-### VSCode Actionbar and Sidebar: 
+### [Activity Bar](https://code.visualstudio.com/api/ux-guidelines/activity-bar) and [Primary Sidebar](https://code.visualstudio.com/api/ux-guidelines/sidebars): C# Programming
+### [Documenting Editing](https://github.com/microsoft/vscode-extension-samples/tree/main/document-editing-sample) and [Code Actions](https://github.com/microsoft/vscode-extension-samples/tree/main/code-actions-sample): C# Programming
 <img width="1280" alt="specialization" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5dc2618d-8705-4ccc-8e39-b778e29bffb3">
+
+### [Unity Engine Inspector](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html): Unity Inspector Component 
+<img width="1280" alt="Screenshot 2023-09-17 at 10 38 53 PM" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5ddeb3dd-0f93-450d-8289-a5f23f2aa0bf">
 
 ## Requirements and Links
   * VSCode Extension:
@@ -40,16 +45,6 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
 ## Set Up
 
 Fork or clone the entire repo
-```bash
-$ git clone https://github.com/debbieyuen/vscode-unityscripting
-```
-
-Only clone the VSCode Extension
-```bash
-$ git clone https://github.com/debbieyuen/vscode-unityscripting
-```
-
-Only clone the Unity Project
 ```bash
 $ git clone https://github.com/debbieyuen/vscode-unityscripting
 ```
