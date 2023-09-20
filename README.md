@@ -25,7 +25,8 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/0c2a43cc-faf
 | 📚 | Tutorials      | Tutorials, sample projects, and playgrounds from Unity Learn and other web links |
 | 📹 | Videos         | Individual videos from various web links including YouTube |
 
-https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/7d0bb9ec-45cd-4b54-b66b-a9b16cc5b78a
+https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/87ff1f02-890c-4003-bd4f-0a3717022084
+
 
 ### [Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets): Unity Player Movement Snippets
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8a-4141-9a29-59a2501baac5
