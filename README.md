@@ -15,6 +15,9 @@ Here are some lessons I hope students can think about while using this extension
 ## VS Code Features
 
 ### [Walkthrough](https://code.visualstudio.com/api/ux-guidelines/walkthroughs): Get Started with Unity Development
+https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/0c2a43cc-faff-4257-8656-8385d7d5c3e4
+
+### [Command Palette](https://code.visualstudio.com/api/ux-guidelines/command-palette): Unity Learn Documentation
 | Symbol  | Category | Description |
 | ------- | -------- | ----------- |
 | 👾 | Course Content | Course website, university links, lecture slides, lab assignments |
@@ -23,9 +26,6 @@ Here are some lessons I hope students can think about while using this extension
 | 📹 | Videos         | Individual videos from various web links including YouTube |
 
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/7d0bb9ec-45cd-4b54-b66b-a9b16cc5b78a
-
-### [Command Palette](https://code.visualstudio.com/api/ux-guidelines/command-palette): Unity Learn Documentation
-https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/7d999fd3-18e5-49b1-b079-510f5f08d1cf
 
 ### [Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets): Unity Player Movement Snippets
 https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8a-4141-9a29-59a2501baac5
