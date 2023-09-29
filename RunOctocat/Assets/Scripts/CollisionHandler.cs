@@ -11,6 +11,7 @@ public class CollisionHandler : MonoBehaviour
     // Set the materials in the inspector
     public Material[] myMaterials;
 
+
     private void OnCollisionEnter(Collision collision)
     {
         switch (collision.gameObject.tag)

@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f093c70dfd7484f7e94564eac883c17b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 402444217}
+  opponent: {fileID: 0}
   Player: {fileID: 1378341548}
 --- !u!1 &435557279
 GameObject:
@@ -296,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421618326182696541, guid: 42cfcebd0cef84328af6f4371d7bf47d, type: 3}
       propertyPath: m_Name
-      value: Sphere (1)
+      value: Opponent (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -318,7 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 650596103}
   m_Layer: 0
-  m_Name: Gems
+  m_Name: Opponents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421618326182696541, guid: 42cfcebd0cef84328af6f4371d7bf47d, type: 3}
       propertyPath: m_Name
-      value: Sphere (3)
+      value: Opponent (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -804,38 +804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rb: {fileID: 1612693232}
-  movement: {x: 10, y: 10, z: 10}
---- !u!1 &1772334503
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1772334504}
-  m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1772334504
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772334503}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  movement: {x: 0, y: 0, z: 0}
 --- !u!1001 &1933612037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -886,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421618326182696541, guid: 42cfcebd0cef84328af6f4371d7bf47d, type: 3}
       propertyPath: m_Name
-      value: Sphere (2)
+      value: Opponent (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1059,7 +1028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421618326182696541, guid: 42cfcebd0cef84328af6f4371d7bf47d, type: 3}
       propertyPath: m_Name
-      value: Sphere
+      value: Opponent
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1154,4 +1123,3 @@ SceneRoots:
   - {fileID: 1394938247}
   - {fileID: 7248805737916570525}
   - {fileID: 650596103}
-  - {fileID: 1772334504}

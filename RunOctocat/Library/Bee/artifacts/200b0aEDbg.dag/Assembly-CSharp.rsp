@@ -365,10 +365,12 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/ClassesPractice.cs"
 "Assets/Scripts/CollisionHandler.cs"
 "Assets/Scripts/Collisions.cs"
-"Assets/Scripts/EnemyMovement.cs"
+"Assets/Scripts/EventFunctionsPractice.cs"
 "Assets/Scripts/NewBehaviourScript.cs"
+"Assets/Scripts/OpponentMovement.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/TranslatePlayer.cs"
 -langversion:9.0
