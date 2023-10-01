@@ -38,6 +38,10 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
 ### [Unity Engine Inspector](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html): Unity Inspector Component 
 <img width="1280" alt="Screenshot 2023-09-17 at 10 38 53 PM" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5ddeb3dd-0f93-450d-8289-a5f23f2aa0bf">
 
+### [Run Octocat Unity Game](https://usc-ctin583.github.io/Projects/project1/): Unity Engine
+<img width="1280" alt="Screenshot 2023-09-30 at 7 35 03 PM" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/bb99e551-8c60-4b3c-a05c-c0c287d843da">
+
+
 ## Requirements and Links
   * VSCode Extension:
        * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
