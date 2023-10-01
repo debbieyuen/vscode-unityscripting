@@ -28,6 +28,8 @@
 /[Aa]ssets/Skyboxes/
 /RunOctocat/Logs/
 /RunOctocat/Library/
+/RunOctocat/Temp/
+/RunOctocat/
 
 # Visual Studio cache directory
 .vs/
