@@ -82,6 +82,8 @@ $ git lfs install
 ```
     
 ## Credits and References 
+This extension was designed to support me in teaching an introduction to game development course at USC. While teaching, I wanted to be able to switch between live coding in VSCode and illustrating programming concepts on my lecture slides. I was also interested in seeing how VSCode, Unity, and Documentation could connect together. Through all of this, I hoped that my students would learn data structures, object-oriented programming, and important game development affordances by creating a real Unity game. But most of all, I hoped that each student would leave class day confident and excited to learn. While this extension is not published, I’ve had fun creating and using this extension with my class. Thank you 😊
+
  * This extension makes use of code from [VSCode Extension Samples](https://github.com/microsoft/vscode-extension-samples/tree/main)
  * The Visual Studio Code [live streams](https://www.youtube.com/@code) on YouTube were amazing!! Credits to [Tyler Leonhardt](https://github.com/TylerLeonhardt)
  * Thank you to the creators of the many resources and tutorials I found online such as [Ben Awad](https://github.com/benawad)
