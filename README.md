@@ -51,8 +51,16 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
        * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
   * Unity:
        * [Git Large File Storage](https://git-lfs.com/)
-       * [Unity 2022](https://unity.com/releases/lts)
-       * [Input System 1.7.0](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
+       * [Unity 2022.3.7f1](https://unity.com/releases/lts)
+       * [Input System 1.6.3](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
+  * Run Octocat Game:
+       * [AI Navigation 1.1.4](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html)
+       * [Cinemachine 2.9.7](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/index.html)
+       * [Unity UI 1.0.0](https://docs.unity3d.com/Manual/UIElements.html)
+       * [Unity Asset Store](https://assetstore.unity.com/)
+       * [MudBun](https://assetstore.unity.com/packages/tools/particles-effects/mudbun-volumetric-vfx-modeling-177891)
+       * [Build your own octocat](https://myoctocat.com/)
+       * Model your own 3D Octocat in Blender or Unity!
 
 ## Set Up
 
