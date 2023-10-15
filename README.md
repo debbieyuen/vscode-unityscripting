@@ -38,6 +38,10 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
 ### [Unity Engine Inspector](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html): Unity Inspector Component 
 <img width="1280" alt="Screenshot 2023-09-17 at 10 38 53 PM" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/5ddeb3dd-0f93-450d-8289-a5f23f2aa0bf">
 
+### [Run Octocat Unity Game](https://usc-ctin583.github.io/Projects/project1/): Unity Engine
+<img width="1280" alt="Screenshot 2023-09-30 at 7 35 03 PM" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/bb99e551-8c60-4b3c-a05c-c0c287d843da">
+
+
 ## Requirements and Links
   * VSCode Extension:
        * [Visual Studio Code 1.82.0](https://code.visualstudio.com/)
@@ -47,8 +51,16 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
        * [Fast XML Parser](https://www.npmjs.com/package/fast-xml-parser)
   * Unity:
        * [Git Large File Storage](https://git-lfs.com/)
-       * [Unity 2022](https://unity.com/releases/lts)
-       * [Input System 1.7.0](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
+       * [Unity 2022.3.7f1](https://unity.com/releases/lts)
+       * [Input System 1.6.3](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
+  * Run Octocat Game:
+       * [AI Navigation 1.1.4](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html)
+       * [Cinemachine 2.9.7](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/index.html)
+       * [Unity UI 1.0.0](https://docs.unity3d.com/Manual/UIElements.html)
+       * [Unity Asset Store](https://assetstore.unity.com/)
+       * [MudBun](https://assetstore.unity.com/packages/tools/particles-effects/mudbun-volumetric-vfx-modeling-177891)
+       * [Build your own octocat](https://myoctocat.com/)
+       * Model your own 3D Octocat in Blender or Unity!
 
 ## Set Up
 
@@ -78,6 +90,8 @@ $ git lfs install
 ```
     
 ## Credits and References 
+This extension was designed to support me in teaching an introduction to game development course at USC. While teaching, I wanted to be able to switch between live coding in VSCode and illustrating programming concepts on my lecture slides. I was also interested in seeing how VSCode, Unity, and Documentation could connect together. Through all of this, I hoped that my students would learn data structures, object-oriented programming, and important game development affordances by creating a real Unity game. But most of all, I hoped that each student would leave class day confident and excited to learn. While this extension is not published, I’ve had fun creating and using this extension with my class. Thank you 😊
+
  * This extension makes use of code from [VSCode Extension Samples](https://github.com/microsoft/vscode-extension-samples/tree/main)
  * The Visual Studio Code [live streams](https://www.youtube.com/@code) on YouTube were amazing!! Credits to [Tyler Leonhardt](https://github.com/TylerLeonhardt)
  * Thank you to the creators of the many resources and tutorials I found online such as [Ben Awad](https://github.com/benawad)
