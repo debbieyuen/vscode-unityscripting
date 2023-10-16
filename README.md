@@ -6,11 +6,20 @@ To make the most out of Unity, it is essential and valuable for users to underst
 The depth of C# programming varies drastically depending on the user’s unique needs, projects, and tasks. Therefore, the Unity Learn extension’s primary goal is not to teach mastery of the C# language but to teach how Unity and Visual Studio Code can be adapted for their purposes. 
 
 
-Here are some lessons I hope students can think about while using this extension:
+**Here are some lessons I hope students can think about while using this extension:**
   * **Design and code with intention:** Unity allows developers and designers to design one application that can be built for various mobile devices, desktops, websites, consoles, and headsets. Applications that support more platforms may benefit from increased sales and profits. What other reasons led you to select those platforms for your application? How does the code or design of the application change as you customize the experience to a specific platform?
   * **Workflow:** Visual Studio and Unity work seamlessly together. However, many game developers (including me) have issues working with Visual Studio Code and Unity. Can we design a new workflow between Visual Studio Code and Unity? What could that look like?
   * **Documentation:** Documentation is your toolkit and best friend. Videos and tutorials are great. Learn how to read documentation to prototype new and custom experiences.
   * **Monetization and User Experience:** The relationship between game monetization and user experience can more or less depend on each other. Will one drive the other? Does one drive the other? How does prioritizing one aspect over the other affect the gameplay designs?
+
+**Links:**
+| Name  | Description | Language | Link
+| ------------- | ------------- | ---- | ---- |
+| VSCode Unity Learn Extension | Visual Studio Code Extension to support Unity and VSCode workflows | Typescript | [Folder](learn-unity-scripting) |
+| Unity Octocat Game Project | Interactive game created with Unity 3D | C# | [Folder](RunOctocat) |
+| ReactJS Octocat Game | Responsive website created with React | Javascript | [Repository](https://github.com/debbieyuen/octocat-reactjs) |
+| Octocat Game Website | Immersive website for an Octocat World game | GitHub Pages | [Website](https://debbieyuen.github.io/octocat-reactjs/) |
+| Octocat Character | 3D model of the Octocat mascot created in Blender | Blend | 3D Model |
 
 ## VS Code Features
 
