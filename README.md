@@ -62,6 +62,8 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
        * [Git Large File Storage](https://git-lfs.com/)
        * [Unity 2022.3.7f1](https://unity.com/releases/lts)
        * [Input System 1.6.3](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
+       * [Unity Render Streaming](https://github.com/Unity-Technologies/UnityRenderStreaming)
+       * [Unity RTC](https://github.com/Unity-Technologies/com.unity.webrtc)
   * Run Octocat Game:
        * [AI Navigation 1.1.4](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html)
        * [Cinemachine 2.9.7](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/index.html)
