@@ -62,8 +62,8 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
        * [Git Large File Storage](https://git-lfs.com/)
        * [Unity 2022.3.7f1](https://unity.com/releases/lts)
        * [Input System 1.6.3](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
-       * [Unity Render Streaming](https://github.com/Unity-Technologies/UnityRenderStreaming)
-       * [Unity RTC](https://github.com/Unity-Technologies/com.unity.webrtc)
+       * [Unity Render Streaming 3.1.0-exp.3](https://github.com/Unity-Technologies/UnityRenderStreaming) (Experimental)
+       * [Unity WebRTC 2.4.0.exp.6](https://github.com/Unity-Technologies/com.unity.webrtc) (Experimental)
   * Run Octocat Game:
        * [AI Navigation 1.1.4](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html)
        * [Cinemachine 2.9.7](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/index.html)
@@ -98,6 +98,12 @@ $ npm install fast-xml-parser
 For the Unity project, install Git LFS
 ```bash
 $ git lfs install
+```
+
+Within the Unity **Package Manager**, install `Unity Render Streaming` and `WebRTC` via git URL
+```bash
+com.unity.webrtc@2.4.0-exp.8
+com.unity.renderstreaming@3.1.0-exp.3
 ```
     
 ## Credits and References 
