@@ -539,7 +539,8 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    PRODUCT_DESCRIPTION: 
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -830,6 +831,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Standalone: MUDBUN_BUILTIN_RP;MUDBUN
+    WebGL: MUDBUN_BUILTIN_RP;MUDBUN
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
