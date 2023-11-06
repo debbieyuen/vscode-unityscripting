@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Samples/Unity Render Streaming/3.1.0-exp.3/Example/WebBrowserInput/WebBrowserInput.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
