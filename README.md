@@ -62,7 +62,7 @@ https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/f935b223-ac8
        * [Git Large File Storage](https://git-lfs.com/)
        * [Unity 2022.3.7f1](https://unity.com/releases/lts)
        * [Input System 1.6.3](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html)
-       * [Unity Render Streaming 3.1.0-exp.3](https://github.com/Unity-Technologies/UnityRenderStreaming) (Experimental)
+       * [Unity Render Streaming 3.1.0-exp.6](https://github.com/Unity-Technologies/UnityRenderStreaming) (Experimental)
        * [Unity WebRTC 2.4.0.exp.6](https://github.com/Unity-Technologies/com.unity.webrtc) (Experimental)
   * Run Octocat Game:
        * [AI Navigation 1.1.4](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html)
@@ -103,9 +103,18 @@ $ git lfs install
 Within the Unity **Package Manager**, install `Unity Render Streaming` and `WebRTC` via git URL
 ```bash
 com.unity.webrtc@2.4.0-exp.8
-com.unity.renderstreaming@3.1.0-exp.3
+com.unity.renderstreaming@3.1.0-exp.6
 ```
-    
+
+Within the Unity **Render Streaming/ Render Streaming Wizard**, click on the **Download latest version of web app.** button. If you are on a Mac, run the following commands in terminal. 
+```bash
+chmod +x webserver_mac
+./webserver_mac -p 3030
+```
+
+Create a new settings asset for Render Streaming and input the signaling type and URL.
+<img width="1280" alt="Screenshot 2023-11-05 at 4 39 16 PM" src="https://github.com/debbieyuen/vscode-unityscripting/assets/31296177/6e6b18f0-69f9-4890-87a9-0e3077e79e98">
+
 ## Credits and References 
 This extension was designed to support me in teaching an introduction to game development course at USC. While teaching, I wanted to be able to switch between live coding in VSCode and illustrating programming concepts on my lecture slides. I was also interested in seeing how VSCode, Unity, and Documentation could connect together. Through all of this, I hoped that my students would learn data structures, object-oriented programming, and important game development affordances by creating a real Unity game. But most of all, I hoped that each student would leave class day confident and excited to learn. While this extension is not published, I’ve had fun creating and using this extension with my class. Thank you 😊
 
